@@ -1,0 +1,68 @@
+[db2inst1@fssdevwma ~]$ db2 get dbm cfg
+
+          Database Manager Configuration
+
+     Node type = Client
+
+ Database manager configuration release level            = 0x1500
+
+ Federated Database System Support           (FEDERATED) = NO
+ Transaction processor monitor name        (TP_MON_NAME) =
+
+ Default charge-back account           (DFT_ACCOUNT_STR) =
+
+ Java Development Kit installation path       (JDK_PATH) = /home/db2inst1/sqllib/java/jdk64
+
+ Diagnostic error capture level              (DIAGLEVEL) = 3
+ Notify Level                              (NOTIFYLEVEL) = 3
+ Diagnostic data directory path               (DIAGPATH) = /home/db2inst1/sqllib/db2dump/
+ Current member resolved DIAGPATH                        = /home/db2inst1/sqllib/db2dump/
+ Alternate diagnostic data directory path (ALT_DIAGPATH) =
+ Current member resolved ALT_DIAGPATH                    =
+ Size of rotating db2diag & notify logs (MB)  (DIAGSIZE) = 100
+
+ SYSADM group name                        (SYSADM_GROUP) = DB2INST1
+ SYSCTRL group name                      (SYSCTRL_GROUP) =
+ SYSMAINT group name                    (SYSMAINT_GROUP) =
+ SYSMON group name                        (SYSMON_GROUP) =
+
+ Client Userid-Password Plugin          (CLNT_PW_PLUGIN) =
+ Client Kerberos Plugin                (CLNT_KRB_PLUGIN) =
+ Group Plugin                             (GROUP_PLUGIN) =
+ GSS Plugin for Local Authorization    (LOCAL_GSSPLUGIN) =
+ Server Plugin Mode                    (SRV_PLUGIN_MODE) = UNFENCED
+ Server List of GSS Plugins      (SRVCON_GSSPLUGIN_LIST) =
+ Server Userid-Password Plugin        (SRVCON_PW_PLUGIN) =
+ Server Connection Authentication          (SRVCON_AUTH) = NOT_SPECIFIED
+ Cluster manager                                         =
+
+ Database manager authentication        (AUTHENTICATION) = SERVER
+ Cataloging allowed without authority   (CATALOG_NOAUTH) = YES
+ Bypass federated authentication            (FED_NOAUTH) = NO
+
+ Java Virtual Machine heap size (4KB)     (JAVA_HEAP_SZ) = 65536
+ Directory cache support                     (DIR_CACHE) = YES
+
+ Max requester I/O block size (bytes)         (RQRIOBLK) = 65535
+ Workload impact by throttled utilities(UTIL_IMPACT_LIM) = 10
+
+ Transaction manager database name         (TM_DATABASE) = 1ST_CONN
+
+ Discovery mode                               (DISCOVER) = SEARCH
+
+ SSL client keydb file                  (SSL_CLNT_KEYDB) =
+ SSL client stash file                  (SSL_CLNT_STASH) =
+
+ db2start/db2stop timeout (min)        (START_STOP_TIME) = 0
+
+ WLM dispatcher enabled                 (WLM_DISPATCHER) = NO
+ WLM dispatcher concurrency            (WLM_DISP_CONCUR) = COMPUTED
+ WLM dispatcher CPU shares enabled (WLM_DISP_CPU_SHARES) = NO
+ WLM dispatcher min. utilization (%) (WLM_DISP_MIN_UTIL) = 5
+
+ Communication buffer exit library list (COMM_EXIT_LIST) =
+ Current effective arch level         (CUR_EFF_ARCH_LVL) = V:11 R:5 M:0 F:0 I:0 SB:0
+ Current effective code level         (CUR_EFF_CODE_LVL) = V:11 R:5 M:0 F:0 I:0 SB:0
+
+
+[db2inst1@fssdevwma ~]$
